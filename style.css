@@ -2,4 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid black  ;
+}
+header {
+    padding: 10px;
+    background-color: rgb(247, 143, 231);
+}
+
+header ul {
+display: flex;
+list-style: none;
+/*justify-content: space-around;
+flex: 1;*/
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    margin-right: 10px;
+}
+
+.logo {
+    /*height:40px;*/
+    /*overflow: hidden;*/
+width: 80px;
+}
+
+img {
+    max-width: 100%;
+   display: block;
 }
