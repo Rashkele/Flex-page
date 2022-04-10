@@ -4,6 +4,26 @@
     box-sizing: border-box;
     border: 1px solid black  ;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 5px red solid;
+    
+}
+
+main {
+    display: flex;
+    column-gap: 10px;
+    flex-grow: 1;
+    background-color: beige;
+   
+}
+
+ul {
+    list-style: none;
+}
+
 header {
     padding: 10px;
     background-color: rgb(247, 143, 231);
@@ -11,7 +31,6 @@ header {
 
 header ul {
 display: flex;
-list-style: none;
 flex-grow: 1;
 /*justify-content: space-around;
 flex: 1;*/
@@ -42,5 +61,16 @@ img {
 header li:nth-child(4) {
     margin-right: auto;
     /*margin-left: auto;*/
+}
+
+footer {
+    background-color: rgb(247, 143, 231);   
+}
+
+/*aside {
+    width: 30%;*/
+}
+aside {
+    flex: 0 0 200px;
 }
 
